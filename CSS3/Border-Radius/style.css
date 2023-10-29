@@ -1,0 +1,58 @@
+.gambar { 
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+}
+
+.gambar1 {
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 300px;
+    overflow: hidden;
+    border: 3px solid blue;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    background-image: cover;
+}
+
+.gambar2 {
+    border: 8px solid #ccc;
+    border-radius: 10px;
+}
+
+.gambar3 {
+    border: 10px solid red;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.gambar4 {
+    border: 10px solid green;
+    border-radius: 100px;
+}
+
+.gambar5 {
+    height: 70px;
+    border: 10px solid blue;
+    border-radius: 100px 100px 0 0;
+}
+
+.gambar6 {
+    margin-top: 110px;
+    height: 70px;
+    border:10px solid blue;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.gambar7 {
+    border: 10px solid orange;
+    border-radius: 20px 100px 100px 20px;
+}
