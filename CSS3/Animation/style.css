@@ -1,0 +1,49 @@
+* {
+    text-size: 200px;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.kotak {
+    width: 200px;
+    height: 200px;
+    background-color: salmon;
+    margin: 50px;
+}
+
+.kotak1 {
+    animation: animasikotak 3s ease infinite 
+    normal;
+}
+
+.kotak2 {
+    animation: animasikotak 3s ease infinite 
+    reverse;
+}
+
+.kotak3 {
+    animation: animasikotak 3s ease infinite 
+    alternate;
+}
+
+.kotak4 {
+    animation: animasikotak 3s ease infinite 
+    alternate-reverse;
+}
+
+@keyframes animasikotak {
+    0% {
+        width: 200px;
+    }
+
+    50% {
+        width: 500px;
+        height: 300px;
+    }
+
+    100% {
+        width: 500px;
+    }
+}
