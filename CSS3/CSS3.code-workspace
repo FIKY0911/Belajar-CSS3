@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Belajar Projek-Programmer"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
